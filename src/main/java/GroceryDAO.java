@@ -54,7 +54,7 @@ public class GroceryDAO {
      * preparedStatement.setString(1,int1);
      * preparedStatement.setInt(2,string2);
      *
-     * @param groceryName the name of the grocery passed in from the GroceryService.
+     * @param groceryName the name of the grocery passed in from the GroceryService..
      */
     public void addGrocery(String groceryName){
         Connection connection = ConnectionUtil.getConnection();
